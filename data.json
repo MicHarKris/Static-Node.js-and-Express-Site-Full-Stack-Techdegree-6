@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "A project for practicing basic JavaScript syntax and data structures by building a Random Quote Generator; a program that displays a randomly selected quote each time the user clicks a button.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://micharkris.github.io/Random-Quote-Generator-Full-Stack-Techdegree-1/",
+            "github_link": "https://github.com/MicHarKris/Random-Quote-Generator-Full-Stack-Techdegree-1",
+            "image_urls": ["images/projects/quote_generator.PNG", "images/projects/quote_generator2.PNG"]
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "Displaying a large amount of data on a web page, like a list of 200 movie titles or 400 products, can overwhelm a user with too much information at once. A common solution is to create separate “pages” that each display a small portion of the data. In this project, you'll write JavaScript to display several “pages” of student data that the user can easily navigate and view.",
+            "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code"],
+            "live_link": "https://micharkris.github.io/Data-Pagination-And-Filtering-Full-Stack-Techdegree-2/",
+            "github_link": "https://github.com/MicHarKris/Data-Pagination-And-Filtering-Full-Stack-Techdegree-2",
+            "image_urls": ["images/projects/student_list.PNG", "images/projects/student_list2.PNG"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. This project features a form that is engaging, interactive, and easy to use.",
+            "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code", "RegEx", "Accessibility"],
+            "live_link": "https://micharkris.github.io/Interactive-Form-Full-Stack-Techdegree-3/",
+            "github_link": "https://github.com/MicHarKris/Interactive-Form-Full-Stack-Techdegree-3",
+            "image_urls": ["images/projects/interactive_form.PNG", "images/projects/interactive_form2.PNG"]
+        },
+        {
+            "id": 3,
+            "project_name": "Game Show App",
+            "description": "A browser-based, word guessing game: 'Phrase Hunter.' Using JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase. A player tries to guess the phrase by selecting individual letters from an onscreen keyboard. Can they guess the phrase before they run out of attempts?",
+            "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code", "RegEx", "Accessibility", "OOP"],
+            "live_link": "https://micharkris.github.io/Phrase-Hunter-Game-Full-Stack-Techdegree-4/",
+            "github_link": "https://github.com/MicHarKris/Phrase-Hunter-Game-Full-Stack-Techdegree-4",
+            "image_urls": ["images/projects/phrase_hunter.PNG", "images/projects/phrase_hunter2.PNG"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, this project creates an employee directory by communicating with a third-party API (Application Programming Interface).",
+            "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code", "RegEx", "Accessibility", "OOP", "AJAX", "Fetch and Public APIs"],
+            "live_link": "https://micharkris.github.io/Random-User-Generator-API-Full-Stack-Techdegree-5/",
+            "github_link": "https://github.com/MicHarKris/Random-User-Generator-API-Full-Stack-Techdegree-5",
+            "image_urls": ["images/projects/employee_directory.PNG", "images/projects/employee_directory2.PNG"]
+        }
+    ]
+}

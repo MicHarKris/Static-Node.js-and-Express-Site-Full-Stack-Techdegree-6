@@ -5,14 +5,20 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 My Portfolio -  My Skills, My Projects
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p The skills and projects I have studied with TeamTreeHouse through 5 modules in the field of Full-Stack Development, using the primary tools of HTML, CSS and JavaScript.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
+
+    .cell
+      each project in projects
+        a(href=project.live_link)
+          img.thumbnail(src=`/static/${project.image_urls[0]}`, alt=`Thumbnail - ${project.project_name}`)
+          h5= project.project_name
 
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       
