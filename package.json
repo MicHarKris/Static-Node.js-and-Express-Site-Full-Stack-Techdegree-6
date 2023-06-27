@@ -1,4 +1,12 @@
 {
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "An online portfolio, with 5 project examples",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Your Name",
   "dependencies": {
     "express": "^4.18.2",
     "json": "^11.0.0",

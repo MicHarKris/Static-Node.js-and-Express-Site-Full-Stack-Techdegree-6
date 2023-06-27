@@ -9,11 +9,27 @@ app.use('/static', express.static('public')); // serves static assets from the '
 // Set view engine to .pug
 app.set('view engine', 'pug');
 
+// Basic rooutes
 const indexRoute = require('./routes/index');
 const aboutRoute = require('./routes/about');
 
 app.use('/', indexRoute);
 app.use('/about', aboutRoute);
+
+// 404 Error Handler
+app.use((req, res, next) => {
+    const error = new Error('Not Found');
+    error.status = 404;
+    next(error);
+  });
+
+  // Global Error Handler
+  app.use((err, req, res, next) => {
+    err.status = err.status || 500;
+    err.message = err.message || 'Server Error';
+    console.error(`Error: ${err.status} - ${err.message}`);
+    res.status(err.status).render('error', { errorMessage: err.message });
+});
 
 // Start the server
 app.listen(3000, () => {

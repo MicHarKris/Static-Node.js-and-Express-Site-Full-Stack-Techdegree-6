@@ -1,39 +1,51 @@
-<!DOCTYPE html>
+doctype html
 html(lang="en" dir="ltr")
+
   head
+    //- Meta tags
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    //- Title
     title Portfolio Site
+
+    //- Fonts
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+
+    //- CSS files
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
 
   body
+    //- Sidebar section
     #my-info.sidebar
       .sidebar-info-box
         br
         .thumbnail-box
+          //- Profile image
           img.thumbnail(src='/static/images/profile.png', alt='Profile Image')
-        .dev-intro-box
 
-          //- Replace with your name
+        .dev-intro-box
+          //- Name heading
           h5 Michael Harlev Kristensen
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
+          //- Description
           p A novice web-developer with a span of skills ranging from UX-design to full-stack development.
 
-          //- Add path from your '/about' route handler to the href below
+          //- About link
           a(href='/about') Learn More &rarr;
 
     .wrapper
+      //- Header section
       .header
         .header-info-box
+          //- Icon
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
-
-          //- Replace with your name — this is for the mobile layout
+          //- Name
           span Michael Harlev Kristensen
 
       block content
 
+  //- JS script included
   script(src='/static/js/script.js')

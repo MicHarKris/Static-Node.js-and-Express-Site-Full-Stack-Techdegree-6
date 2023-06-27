@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://micharkris.github.io/Random-Quote-Generator-Full-Stack-Techdegree-1/",
             "github_link": "https://github.com/MicHarKris/Random-Quote-Generator-Full-Stack-Techdegree-1",
-            "image_urls": ["images/projects/quote_generator.PNG", "images/projects/quote_generator2.PNG"]
+            "image_urls": ["images/projects/quote_generator.PNG", "images/projects/quote_generator1.PNG", "images/projects/quote_generator2.PNG"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code"],
             "live_link": "https://micharkris.github.io/Data-Pagination-And-Filtering-Full-Stack-Techdegree-2/",
             "github_link": "https://github.com/MicHarKris/Data-Pagination-And-Filtering-Full-Stack-Techdegree-2",
-            "image_urls": ["images/projects/student_list.PNG", "images/projects/student_list2.PNG"]
+            "image_urls": ["images/projects/student_list.PNG", "images/projects/student_list1.PNG", "images/projects/student_list2.PNG"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code", "RegEx", "Accessibility"],
             "live_link": "https://micharkris.github.io/Interactive-Form-Full-Stack-Techdegree-3/",
             "github_link": "https://github.com/MicHarKris/Interactive-Form-Full-Stack-Techdegree-3",
-            "image_urls": ["images/projects/interactive_form.PNG", "images/projects/interactive_form2.PNG"]
+            "image_urls": ["images/projects/interactive_form.PNG", "images/projects/interactive_form1.PNG", "images/projects/interactive_form2.PNG"]
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code", "RegEx", "Accessibility", "OOP"],
             "live_link": "https://micharkris.github.io/Phrase-Hunter-Game-Full-Stack-Techdegree-4/",
             "github_link": "https://github.com/MicHarKris/Phrase-Hunter-Game-Full-Stack-Techdegree-4",
-            "image_urls": ["images/projects/phrase_hunter.PNG", "images/projects/phrase_hunter2.PNG"]
+            "image_urls": ["images/projects/phrase_hunter.PNG", "images/projects/phrase_hunter1.PNG", "images/projects/phrase_hunter2.PNG"]
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code", "RegEx", "Accessibility", "OOP", "AJAX", "Fetch and Public APIs"],
             "live_link": "https://micharkris.github.io/Random-User-Generator-API-Full-Stack-Techdegree-5/",
             "github_link": "https://github.com/MicHarKris/Random-User-Generator-API-Full-Stack-Techdegree-5",
-            "image_urls": ["images/projects/employee_directory.PNG", "images/projects/employee_directory2.PNG"]
+            "image_urls": ["images/projects/employee_directory.PNG", "images/projects/employee_directory1.PNG", "images/projects/employee_directory2.PNG"]
         }
     ]
 }
