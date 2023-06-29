@@ -1,12 +1,9 @@
 extends layout.pug
 
-//- Displays general error messages
+//- Displays Page not found error messages
 block content
-  h1 Error
+  h1 Page Not Found
   p= errorMessage
   p Status: #{status}
-  if stack
-    pre Stack Trace:
-      code= stack
   //- Adds a link for return to home page
   a(href="/") Go back to the home page

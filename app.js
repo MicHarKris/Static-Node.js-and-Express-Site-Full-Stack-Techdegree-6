@@ -13,22 +13,27 @@ app.set('view engine', 'pug');
 const indexRoute = require('./routes/index');
 const aboutRoute = require('./routes/about');
 
-app.use('/', indexRoute);
 app.use('/about', aboutRoute);
+app.use('/', indexRoute);
 
 // 404 Error Handler
 app.use((req, res, next) => {
-    const error = new Error('Not Found');
-    error.status = 404;
-    next(error);
-  });
+  const error = new Error('Not Found');
+  error.status = 404;
+  next(error);  
+});
 
-  // Global Error Handler
-  app.use((err, req, res, next) => {
-    err.status = err.status || 500;
-    err.message = err.message || 'Server Error';
-    console.error(`Error: ${err.status} - ${err.message}`);
-    res.status(err.status).render('error', { errorMessage: err.message });
+// Error Handler
+app.use((err, req, res, next) => {
+  err.status = err.status || 500;
+  err.message = err.message || 'Server Error';
+  console.error(`Error: ${err.status} - ${err.message}`);
+
+  if (err.status === 404) {
+    res.status(404).render('page-not-found', { errorMessage: err.message, status: err.status });
+  } else {
+    res.status(err.status).render('error', { errorMessage: err.message, status: err.status, stack: err.stack });
+  }
 });
 
 // Start the server

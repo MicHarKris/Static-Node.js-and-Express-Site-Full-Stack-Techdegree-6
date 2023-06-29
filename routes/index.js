@@ -12,17 +12,23 @@ router.get('/', (req, res) => {
 router.get('/project/:projectId', (req, res) => {
     const projectId = parseInt(req.params.projectId);
     const project = projects.find(proj => proj.id === projectId);
-
+  
     if (!project) {
         // Handle case when projectId is not found
         res.status(404).render('error', {
-            pageTitle: 'Project Not Found',
-            errorMessage: 'The requested project was not found.'
+            errorTitle: 'Project Not Found',
+            errorMessage: 'The requested project was not found.',
+            status: 404
         });
         return;
     }
-
+  
     res.render('project', { project });
+});
+
+// 404 Error handler
+router.use((req, res) => {
+    res.status(404).render('page-not-found', { errorMessage: 'Page Not Found', status: 404 });
 });
 
 // Exports routes for external use

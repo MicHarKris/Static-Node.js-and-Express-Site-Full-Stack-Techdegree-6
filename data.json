@@ -40,7 +40,7 @@
             "id": 4,
             "project_name": "Public API Requests",
             "description": "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, this project creates an employee directory by communicating with a third-party API (Application Programming Interface).",
-            "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code", "RegEx", "Accessibility", "OOP", "AJAX", "Fetch and Public APIs"],
+            "technologies": ["HTML", "CSS", "JavaScript", "DOM", "Git and Github", "VS Code", "RegEx", "Accessibility", "OOP", "AJAX", "Fetch", "Public APIs"],
             "live_link": "https://micharkris.github.io/Random-User-Generator-API-Full-Stack-Techdegree-5/",
             "github_link": "https://github.com/MicHarKris/Random-User-Generator-API-Full-Stack-Techdegree-5",
             "image_urls": ["images/projects/employee_directory.PNG", "images/projects/employee_directory1.PNG", "images/projects/employee_directory2.PNG"]
